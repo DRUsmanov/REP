@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleApplication1.cpp">
+    <ClCompile Include="Knut_Moriss_Pratt.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
