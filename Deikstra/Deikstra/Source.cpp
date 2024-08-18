@@ -2,39 +2,37 @@
 #include<vector>
 #include<limits>
 #include<algorithm>
+#include<cstdlib>
 
 int main() {
 	using namespace std;
 	setlocale(LC_ALL, "ru");
+	srand(time(NULL));
 		
 	int vesa[10][10];
 	vector<int> dist;
 	vector<int> prosmotreno;
-	int elements;
+	int dist_step[10][10];
 	int vstart;
 	int ime;
+	int vfinish;
+	int size_dist;
 		
-	cout << "Введите количество вершин графа (не более 10): ";
-	cin >> elements;
-
-	cout << "Введите связи с вершинами, если связи нет введите 0"<<endl;
-	for (int v1 = 0; v1 < elements; v1++) {
+	for (int v1 = 0; v1 < 10; v1++) {
 
 		vesa[v1][v1] = 0;
 
-		for (int v2=v1+1; v2 < elements; v2++) {
-			
-				cout << v1 << " - " << v2 << ":";
-				cin >> vesa[v1][v2];
-				vesa[v2][v1] = vesa[v1][v2];
+		for (int v2=v1+1; v2 < 10; v2++) {
+			vesa[v1][v2]= 0 + rand() % 9;
+			vesa[v2][v1] = vesa[v1][v2];
 									
 		}
 		
 	}
-		
+			
 	cout <<endl<< "Матрица: " << endl;
-	for (int v1 = 0; v1 < elements; v1++) {
-		for (int v2 = 0; v2 < elements; v2++) {
+	for (int v1 = 0; v1 < 10; v1++) {
+		for (int v2 = 0; v2 < 10; v2++) {
 			cout << vesa[v1][v2]<<" ";
 			}
 		cout<<endl;
@@ -43,43 +41,80 @@ int main() {
 	cout << endl<<"Укажите начальную вершину: ";
 	cin >> vstart;
 	
-	
-	for (int i = 0; i < elements; i++) {
+	for (int i = 0; i < 10; i++) {
 		dist.push_back(vesa[vstart][i]);
 	}
-
+	for (int i = 0; i < 10; i++) {
+		dist_step[0][i] = vesa[vstart][i];
+	}
+		
 	prosmotreno.push_back(vstart);
-
-	auto minelement = dist[0];
-
-	/*if (minelement == 0) {
-		minelement = *max_element(begin(dist),end(dist)) + 1;
-	}*/
-
-	for (int i = 0; i < elements; i++) {
-		int chek = count(prosmotreno.begin(), prosmotreno.end(), i);
-		if (dist[i] != 0 && chek==0) {
-			if (dist[i] < minelement) {
-				 minelement = dist[i];
-				 ime = i;
+	auto minelement = *max_element(begin(dist), end(dist)) + 1;
+	
+	int step = 0;
+	ime = vstart;
+	while (prosmotreno.size()!= 10) {
+		step++;
+		for (int i = 0; i < 10; i++) {
+			int chek = count(prosmotreno.begin(), prosmotreno.end(), i);
+			if (dist[i] != 0 && chek == 0 && vesa[ime][i]!=0) {
+				if (dist[i] < minelement) {
+					minelement = dist[i];
+					ime = i;
+				}
 			}
 		}
+		for (int i = 0; i < 10; i++) {
+			int chek = count(prosmotreno.begin(), prosmotreno.end(), i);
+			if (vesa[ime][i] != 0 && chek == 0) {
+				if (dist[ime] + vesa[ime][i] < dist[i]) {
+					dist[i] = dist[ime] + vesa[ime][i];
+				}
+				if (dist[i] == 0) {
+					dist[i] = dist[ime] + vesa[ime][i];
+				}
+			}
+		}
+		for (int i=0; i < 10; i++) {
+			dist_step[step][i] = dist[i];
+		}
+		prosmotreno.push_back(ime);
+		minelement = *max_element(begin(dist), end(dist)) + 1;
 	}
 	
-	for (int i = 0; i < elements; i++) {
+	
+	cout << "Минимальные растояния от веришны " << vstart << endl;
+	for (int i = 0; i < 10; i++) {
 		cout << dist[i] << " ";
 	}
-	
 	cout << endl;
-	cout << prosmotreno[0]<<endl;
-	cout << ime << endl;
+	cout << "Просмотрены вершины: " << endl;
+	for (int i = 0; i < 10; i++) {
+		cout << prosmotreno[i] << " ";
+	}
+	cout << endl;
+	cout << "Путь: " << endl;
+	for (int i = 0; i < 10; i++) {
+		for (int s = 0; s < 10; s++) {
+			cout << dist_step[i][s] << " ";
+		}
+		cout << endl;
+	}
 
-	for (int i = 0; i < elements; i++) {
-		if (vesa[ime][i] < dist[i]) {
-			dist[i] = vesa[ime][i];
+	cout << "Введите конечную вершину: ";
+	cin >> vfinish;
+
+	for (int i = 9; i > 0; i--) {
+		if (dist_step[i - 1][vfinish] > dist_step[i][vfinish]) {
+			size_dist = i+1;
+			break;
 		}
 	}
 	
-
+	cout << "Кратчайший путь от вершины " << vstart << " до вершины " << vfinish << " :";
+	for (int i = 0; i < size_dist; i++) {
+		cout << prosmotreno[i] << "-";
+	}
+	cout << vfinish;
 	return 0;
 }
