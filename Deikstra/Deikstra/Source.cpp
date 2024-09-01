@@ -16,14 +16,14 @@ int main() {
 	int vstart;
 	int ime;
 	int vfinish;
-	int size_dist;
+	
 		
 	for (int v1 = 0; v1 < 10; v1++) {
 
 		vesa[v1][v1] = 0;
 
 		for (int v2=v1+1; v2 < 10; v2++) {
-			vesa[v1][v2]= 0 + rand() % 9;
+			vesa[v1][v2]= 1 + rand() % 50;
 			vesa[v2][v1] = vesa[v1][v2];
 									
 		}
@@ -104,10 +104,10 @@ int main() {
 	cout << "¬ведите конечную вершину: ";
 	cin >> vfinish;
 
+	int size_dist;
 	for (int i = 9; i > 0; i--) {
 		if (dist_step[i - 1][vfinish] > dist_step[i][vfinish]) {
 			size_dist = i+1;
-			break;
 		}
 	}
 	

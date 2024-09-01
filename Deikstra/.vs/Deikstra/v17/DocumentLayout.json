@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\Deikstra\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{847D8BD1-B09A-4675-968A-E34AA49A3948}|Deikstra\\Deikstra.vcxproj|C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\Deikstra\\Deikstra\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{847D8BD1-B09A-4675-968A-E34AA49A3948}|Deikstra\\Deikstra.vcxproj|solutionrelative:Deikstra\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\Deikstra\\Deikstra\\Source.cpp",
-              "RelativeDocumentMoniker": "Deikstra\\Source.cpp",
-              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\Deikstra\\Deikstra\\Source.cpp",
-              "RelativeToolTip": "Deikstra\\Source.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-23T18:51:05.523Z",
-              "EditorCaption": ""
             }
           ]
         }
