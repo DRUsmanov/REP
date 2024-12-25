@@ -1,0 +1,4 @@
+﻿  Search in Rotated Sorted Array.cpp
+D:\REP\Search in Rotated Sorted Array\Search in Rotated Sorted Array\Search in Rotated Sorted Array.cpp(11,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\REP\Search in Rotated Sorted Array\Search in Rotated Sorted Array\Search in Rotated Sorted Array.cpp(46,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Search in Rotated Sorted Array.vcxproj -> D:\REP\Search in Rotated Sorted Array\x64\Debug\Search in Rotated Sorted Array.exe
