@@ -1,2 +1,0 @@
-﻿Source1.obj : error LNK2005: main уже определен в Source.obj
-C:\Users\Денис\REP\Bouer_Mur_Horspul\x64\Debug\Bouer_Mur_Horspul.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

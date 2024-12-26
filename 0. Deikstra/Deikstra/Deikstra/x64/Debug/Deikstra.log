@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Денис\REP\Deikstra\Deikstra\Source.cpp(13,8): error C2131: выражение не определяется константой
+C:\Users\Денис\REP\Deikstra\Deikstra\Source.cpp(13,11): error C2131: выражение не определяется константой
+C:\Users\Денис\REP\Deikstra\Deikstra\Source.cpp(4,12): error C1075: "{": не найдена несоответствующая лексема

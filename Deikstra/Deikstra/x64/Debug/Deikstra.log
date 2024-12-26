@@ -1,5 +1,0 @@
-﻿  Source.cpp
-C:\Users\Денис\REP\Deikstra\Deikstra\Source.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\Денис\REP\Deikstra\Deikstra\Source.cpp(59,13): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
-C:\Users\Денис\REP\Deikstra\Deikstra\Source.cpp(68,13): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
-  Deikstra.vcxproj -> C:\Users\Денис\REP\Deikstra\x64\Debug\Deikstra.exe
