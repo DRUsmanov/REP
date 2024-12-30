@@ -30,6 +30,8 @@ struct ListNode {
         }
 
         ListNode* cur = ptr;
+        cout << cur << endl;
+        cout << ptr << endl;
 
         while (l1 && l2) {
             if (l1->val > l2->val) {
@@ -41,6 +43,8 @@ struct ListNode {
                 l1 = l1->next;
             }
             cur = cur->next;
+            cout << cur << endl;
+            cout << ptr << endl;
         }
 
         if (!l1) {

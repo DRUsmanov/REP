@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\REP\\2. Add Two Numbers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C43D533-6BF0-45AB-984A-8F0BEE0AD7A4}|2. Add Two Numbers\\2. Add Two Numbers.vcxproj|D:\\REP\\2. Add Two Numbers\\2. Add Two Numbers\\2. Add Two Numbers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8C43D533-6BF0-45AB-984A-8F0BEE0AD7A4}|2. Add Two Numbers\\2. Add Two Numbers.vcxproj|solutionrelative:2. Add Two Numbers\\2. Add Two Numbers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\REP\\21. Merge Two Sorted Lists\\Merge Two Sorted Lists.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Merge Two Sorted Lists.cpp",
+              "DocumentMoniker": "D:\\REP\\21. Merge Two Sorted Lists\\Merge Two Sorted Lists.cpp",
+              "RelativeDocumentMoniker": "..\\21. Merge Two Sorted Lists\\Merge Two Sorted Lists.cpp",
+              "ToolTip": "D:\\REP\\21. Merge Two Sorted Lists\\Merge Two Sorted Lists.cpp",
+              "RelativeToolTip": "..\\21. Merge Two Sorted Lists\\Merge Two Sorted Lists.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T15:01:15.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2. Add Two Numbers.cpp",
+              "DocumentMoniker": "D:\\REP\\2. Add Two Numbers\\2. Add Two Numbers\\2. Add Two Numbers.cpp",
+              "RelativeDocumentMoniker": "2. Add Two Numbers\\2. Add Two Numbers.cpp",
+              "ToolTip": "D:\\REP\\2. Add Two Numbers\\2. Add Two Numbers\\2. Add Two Numbers.cpp*",
+              "RelativeToolTip": "2. Add Two Numbers\\2. Add Two Numbers.cpp*",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwEIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-30T14:48:03.115Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
