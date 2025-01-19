@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\REP\\0. Knut_Moriss_Pratt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81D73959-DAC6-4B7D-A826-9AB63DD99ABC}|ConsoleApplication1\\ConsoleApplication1.vcxproj|D:\\REP\\0. Knut_Moriss_Pratt\\ConsoleApplication1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{81D73959-DAC6-4B7D-A826-9AB63DD99ABC}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\REP\\0. Knut_Moriss_Pratt\\ConsoleApplication1\\Source.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Source.cpp",
+              "ToolTip": "D:\\REP\\0. Knut_Moriss_Pratt\\ConsoleApplication1\\Source.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\Source.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-14T15:14:29.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

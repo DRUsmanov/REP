@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\LeetCode_Polindrome\\",
+  "WorkspaceRootPath": "D:\\REP\\9 . Polindrome Number\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1078AEF3-8C2D-4C1F-92C7-0400C1F0D7C8}|LeetCode_Polindrome.vcxproj|C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\LeetCode_Polindrome\\LeetCode_Polindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1078AEF3-8C2D-4C1F-92C7-0400C1F0D7C8}|LeetCode_Polindrome.vcxproj|D:\\REP\\9 . Polindrome Number\\LeetCode_Polindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1078AEF3-8C2D-4C1F-92C7-0400C1F0D7C8}|LeetCode_Polindrome.vcxproj|solutionrelative:LeetCode_Polindrome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LeetCode_Polindrome.cpp",
-              "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\LeetCode_Polindrome\\LeetCode_Polindrome.cpp",
+              "DocumentMoniker": "D:\\REP\\9 . Polindrome Number\\LeetCode_Polindrome.cpp",
               "RelativeDocumentMoniker": "LeetCode_Polindrome.cpp",
-              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\REP\\LeetCode_Polindrome\\LeetCode_Polindrome.cpp",
+              "ToolTip": "D:\\REP\\9 . Polindrome Number\\LeetCode_Polindrome.cpp",
               "RelativeToolTip": "LeetCode_Polindrome.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-03T14:40:46.161Z",
               "EditorCaption": ""
