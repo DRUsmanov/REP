@@ -1,20 +1,50 @@
-﻿// 5. Longest Palindromic Substring.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+﻿#include <iostream>
+#include <string>
+#include <vector>
+#include <regex>
 
-#include <iostream>
+
+    std::string longestPalindrome(std::string s) {
+        if (s.length() <= 1) {
+            return s;
+        }
+
+        int maxLen = 1;
+        std::string maxStr = s.substr(0, 1);
+        s = "#" + std::regex_replace(s, std::regex(""), "#") + "#";
+        std::vector<int> dp(s.length(), 0);
+        int center = 0;
+        int right = 0;
+
+        for (int i = 0; i < s.length(); ++i) {
+            if (i < right) {
+                dp[i] = std::min(right - i, dp[2 * center - i]);
+            }
+
+            //Разворачиваемся вокруг символа
+            while (i - dp[i] - 1 >= 0 && i + dp[i] + 1 < s.length() && s[i - dp[i] - 1] == s[i + dp[i] + 1]) {
+                dp[i]++;
+            }
+
+            if (i + dp[i] > right) {
+                center = i;
+                right = i + dp[i];
+            }
+
+            if (dp[i] > maxLen) {
+                maxLen = dp[i];
+                maxStr = s.substr(i - dp[i], 2 * dp[i] + 1);
+                maxStr.erase(std::remove(maxStr.begin(), maxStr.end(), '#'), maxStr.end());
+            }
+        }
+
+        return maxStr;
+    }
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string input_string;
+    std::getline(std::cin, input_string);
+    longestPalindrome(input_string);
+
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
