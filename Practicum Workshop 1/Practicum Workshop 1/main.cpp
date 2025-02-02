@@ -43,12 +43,21 @@ void TABLES_INFO(const std::vector<std::string>& table_status) {
 }
 
 void BOOK_N(int person, const std::vector<int>& table_size, std::vector<std::string>& table_status) {
+	bool function_status = false;
+	if (person > 8) {
+		std::cout << "Sorry, we don't have tables for so many guests." << std::endl;
+		return;
+	}
 	for (size_t table_number = 0; table_number < table_size.size(); ++table_number) {
 		if (table_size[table_number] >= person && table_status[table_number] != "Reserved") {
 			table_status[table_number] = "Reserved";
 			std::cout << "Table " << table_number << " is reserved for you now!" << std::endl;
+			function_status = true;
 			break;
 		}
+	}
+	if (!function_status) {
+		std::cout << "Sorry, we don't have any tables available." << std::endl;
 	}
 }
 
