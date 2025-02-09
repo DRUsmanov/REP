@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\REP\\Project2\\",
+  "WorkspaceRootPath": "D:\\REP\\Calculator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|D:\\REP\\Project2\\Project2\\calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|D:\\REP\\Calculator\\Project2\\calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|solutionrelative:Project2\\calculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|D:\\REP\\Project2\\Project2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|D:\\REP\\Calculator\\Project2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|solutionrelative:Project2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|D:\\REP\\Project2\\Project2\\calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|D:\\REP\\Calculator\\Project2\\calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{182DEBA5-2ADA-4D8C-80B7-BAE7965EC6C9}|Project2\\Project2.vcxproj|solutionrelative:Project2\\calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "calculator.h",
-              "DocumentMoniker": "D:\\REP\\Project2\\Project2\\calculator.h",
+              "DocumentMoniker": "D:\\REP\\Calculator\\Project2\\calculator.h",
               "RelativeDocumentMoniker": "Project2\\calculator.h",
-              "ToolTip": "D:\\REP\\Project2\\Project2\\calculator.h",
+              "ToolTip": "D:\\REP\\Calculator\\Project2\\calculator.h",
               "RelativeToolTip": "Project2\\calculator.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "calculator.cpp",
-              "DocumentMoniker": "D:\\REP\\Project2\\Project2\\calculator.cpp",
+              "DocumentMoniker": "D:\\REP\\Calculator\\Project2\\calculator.cpp",
               "RelativeDocumentMoniker": "Project2\\calculator.cpp",
-              "ToolTip": "D:\\REP\\Project2\\Project2\\calculator.cpp",
+              "ToolTip": "D:\\REP\\Calculator\\Project2\\calculator.cpp",
               "RelativeToolTip": "Project2\\calculator.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -57,9 +57,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.cpp",
-              "DocumentMoniker": "D:\\REP\\Project2\\Project2\\main.cpp",
+              "DocumentMoniker": "D:\\REP\\Calculator\\Project2\\main.cpp",
               "RelativeDocumentMoniker": "Project2\\main.cpp",
-              "ToolTip": "D:\\REP\\Project2\\Project2\\main.cpp",
+              "ToolTip": "D:\\REP\\Calculator\\Project2\\main.cpp",
               "RelativeToolTip": "Project2\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

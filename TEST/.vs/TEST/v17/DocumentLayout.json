@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\REP\\TEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|D:\\REP\\TEST\\TEST\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|solutionrelative:TEST\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|D:\\REP\\TEST\\TEST\\tv_control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|solutionrelative:TEST\\tv_control.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|D:\\REP\\TEST\\TEST\\tv.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|solutionrelative:TEST\\tv.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|D:\\REP\\TEST\\TEST\\tv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|solutionrelative:TEST\\tv.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|D:\\REP\\TEST\\TEST\\tv_control.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C603B228-48AA-41A4-BE11-BA6DFDB179A9}|TEST\\TEST.vcxproj|solutionrelative:TEST\\tv_control.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tv_control.h",
+              "DocumentMoniker": "D:\\REP\\TEST\\TEST\\tv_control.h",
+              "RelativeDocumentMoniker": "TEST\\tv_control.h",
+              "ToolTip": "D:\\REP\\TEST\\TEST\\tv_control.h",
+              "RelativeToolTip": "TEST\\tv_control.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T14:44:31.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tv.h",
+              "DocumentMoniker": "D:\\REP\\TEST\\TEST\\tv.h",
+              "RelativeDocumentMoniker": "TEST\\tv.h",
+              "ToolTip": "D:\\REP\\TEST\\TEST\\tv.h",
+              "RelativeToolTip": "TEST\\tv.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T14:44:21.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tv_control.cpp",
+              "DocumentMoniker": "D:\\REP\\TEST\\TEST\\tv_control.cpp",
+              "RelativeDocumentMoniker": "TEST\\tv_control.cpp",
+              "ToolTip": "D:\\REP\\TEST\\TEST\\tv_control.cpp",
+              "RelativeToolTip": "TEST\\tv_control.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T14:44:11.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tv.cpp",
+              "DocumentMoniker": "D:\\REP\\TEST\\TEST\\tv.cpp",
+              "RelativeDocumentMoniker": "TEST\\tv.cpp",
+              "ToolTip": "D:\\REP\\TEST\\TEST\\tv.cpp",
+              "RelativeToolTip": "TEST\\tv.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T14:43:55.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\REP\\TEST\\TEST\\main.cpp",
+              "RelativeDocumentMoniker": "TEST\\main.cpp",
+              "ToolTip": "D:\\REP\\TEST\\TEST\\main.cpp",
+              "RelativeToolTip": "TEST\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-06T17:19:44.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

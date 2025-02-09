@@ -45,6 +45,6 @@ int main()
 {
     std::string input_string;
     std::getline(std::cin, input_string);
-    longestPalindrome(input_string);
-
+    std::cout<<longestPalindrome(input_string);
+    
 }
