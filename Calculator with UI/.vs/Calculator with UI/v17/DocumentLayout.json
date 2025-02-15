@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\REP\\Calculator with UI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F0E83F6-162E-4B12-9E25-1F740719426C}|Calculator with UI\\Calculator with UI.vcxproj|D:\\REP\\Calculator with UI\\Calculator with UI\\calculator_ui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F0E83F6-162E-4B12-9E25-1F740719426C}|Calculator with UI\\Calculator with UI.vcxproj|solutionrelative:Calculator with UI\\calculator_ui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4F0E83F6-162E-4B12-9E25-1F740719426C}|Calculator with UI\\Calculator with UI.vcxproj|D:\\REP\\Calculator with UI\\Calculator with UI\\calculator_ui.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F0E83F6-162E-4B12-9E25-1F740719426C}|Calculator with UI\\Calculator with UI.vcxproj|solutionrelative:Calculator with UI\\calculator_ui.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F0E83F6-162E-4B12-9E25-1F740719426C}|Calculator with UI\\Calculator with UI.vcxproj|D:\\REP\\Calculator with UI\\Calculator with UI\\calculator_ui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F0E83F6-162E-4B12-9E25-1F740719426C}|Calculator with UI\\Calculator with UI.vcxproj|solutionrelative:Calculator with UI\\calculator_ui.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F0E83F6-162E-4B12-9E25-1F740719426C}|Calculator with UI\\Calculator with UI.vcxproj|D:\\REP\\Calculator with UI\\Calculator with UI\\calculator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "calculator_ui.h",
               "DocumentMoniker": "D:\\REP\\Calculator with UI\\Calculator with UI\\calculator_ui.h",
               "RelativeDocumentMoniker": "Calculator with UI\\calculator_ui.h",
@@ -59,12 +59,11 @@
               "RelativeToolTip": "Calculator with UI\\calculator.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-09T18:45:54.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T18:45:54.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "calculator_ui.cpp",
               "DocumentMoniker": "D:\\REP\\Calculator with UI\\Calculator with UI\\calculator_ui.cpp",
               "RelativeDocumentMoniker": "Calculator with UI\\calculator_ui.cpp",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "Calculator with UI\\calculator.cpp",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T18:45:24.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T18:45:24.351Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "Calculator with UI\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T18:45:06.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T18:45:06.149Z"
             }
           ]
         }

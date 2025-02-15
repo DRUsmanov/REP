@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/i-love-qt.png</file>
+    </qresource>
+    <qresource prefix="/sounds"/>
+</RCC>

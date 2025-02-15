@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\REP\\Stream\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{17780599-0679-4FD2-8EEB-71AC3D60D49C}|Stream\\Stream.vcxproj|D:\\REP\\Stream\\Stream\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{17780599-0679-4FD2-8EEB-71AC3D60D49C}|Stream\\Stream.vcxproj|solutionrelative:Stream\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17780599-0679-4FD2-8EEB-71AC3D60D49C}|Stream\\Stream.vcxproj|D:\\REP\\Stream\\Stream\\book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{17780599-0679-4FD2-8EEB-71AC3D60D49C}|Stream\\Stream.vcxproj|solutionrelative:Stream\\book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "book.h",
-              "DocumentMoniker": "D:\\REP\\Stream\\Stream\\book.h",
-              "RelativeDocumentMoniker": "Stream\\book.h",
-              "ToolTip": "D:\\REP\\Stream\\Stream\\book.h",
-              "RelativeToolTip": "Stream\\book.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-09T16:27:25.012Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\REP\\Stream\\Stream\\main.cpp",
-              "RelativeDocumentMoniker": "Stream\\main.cpp",
-              "ToolTip": "D:\\REP\\Stream\\Stream\\main.cpp",
-              "RelativeToolTip": "Stream\\main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-09T16:27:14.64Z",
-              "EditorCaption": ""
             }
           ]
         }
