@@ -1,3 +1,0 @@
-﻿  LeetCode_Polindrome.cpp
-C:\Users\Денис\REP\LeetCode_Polindrome\LeetCode_Polindrome.cpp(10,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  LeetCode_Polindrome.vcxproj -> C:\Users\Денис\REP\LeetCode_Polindrome\x64\Debug\LeetCode_Polindrome.exe

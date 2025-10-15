@@ -1,5 +1,0 @@
-﻿  Substring with Concatenation of All Words.cpp
-C:\Users\Денис\REP\Substring with Concatenation of All Words\Substring with Concatenation of All Words.cpp(18,27): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Денис\REP\Substring with Concatenation of All Words\Substring with Concatenation of All Words.cpp(22,27): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-C:\Users\Денис\REP\Substring with Concatenation of All Words\Substring with Concatenation of All Words.cpp(33,13): warning C4101: ele2: неиспользованная локальная переменная
-  Substring with Concatenation of All Words.vcxproj -> C:\Users\Денис\REP\Substring with Concatenation of All Words\x64\Debug\Substring with Concatenation of All Words.exe
